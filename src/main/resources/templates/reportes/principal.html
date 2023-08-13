@@ -106,6 +106,48 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- REPORTES TAREA categorias -->
+                <div class="card">
+                    <div class="card-header text-center">
+                        Reporte categorias
+                    </div>
+                    <div class="card-body">
+                        <a th:href="@{/reportes/categoriass?tipo=vPdf}" class="btn btn-primary">
+                            <i class='fas fa-eye'></i><i class='fas fa-file-pdf'></i>
+                        </a>
+                        <a th:href="@{/reportes/categoriass?tipo=Pdf}" class="btn btn-success">
+                            <i class='fas fa-download'></i><i class='fas fa-file-pdf'></i>
+                        </a>
+                        <a th:href="@{/reportes/categoriass?tipo=Xls}" class="btn btn-warning">
+                            <i class='fas fa-download'></i><i class='fas fa-file-excel'></i>
+                        </a>
+                        <a th:href="@{/reportes/categoriass?tipo=Csv}" class="btn btn-danger">
+                            <i class='fas fa-download'></i><i class='fas fa-file-csv'></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- REPORTES TAREA productos -->
+                <div class="card">
+                    <div class="card-header text-center">
+                        Reporte productos
+                    </div>
+                    <div class="card-body">
+                        <a th:href="@{/reportes/producto?tipo=vPdf}" class="btn btn-primary">
+                            <i class='fas fa-eye'></i><i class='fas fa-file-pdf'></i>
+                        </a>
+                        <a th:href="@{/reportes/producto?tipo=Pdf}" class="btn btn-success">
+                            <i class='fas fa-download'></i><i class='fas fa-file-pdf'></i>
+                        </a>
+                        <a th:href="@{/reportes/producto?tipo=Xls}" class="btn btn-warning">
+                            <i class='fas fa-download'></i><i class='fas fa-file-excel'></i>
+                        </a>
+                        <a th:href="@{/reportes/producto?tipo=Csv}" class="btn btn-danger">
+                            <i class='fas fa-download'></i><i class='fas fa-file-csv'></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 

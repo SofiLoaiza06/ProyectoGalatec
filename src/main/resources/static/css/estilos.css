@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: yellow;
+    background-color: turquoise;
     color: red;
     font-size: 20px;
     transition-delay: 0.2s;
